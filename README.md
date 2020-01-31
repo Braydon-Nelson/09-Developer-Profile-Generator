@@ -11,6 +11,7 @@ Generated Profile:
 ![Code Result](./imgs/dev-profile-view.jpg "Picture of Generated Profile")
 
 Code Process:
+
 ![Code Processing](./imgs/code-process.gif "Picture of code processing")
 
 ### Problem
