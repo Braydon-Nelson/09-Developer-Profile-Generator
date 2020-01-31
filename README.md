@@ -7,6 +7,7 @@ The purpose of this application is to allow the user to make a quick GitHub.
 ### Gallery
 
 Generated Profile:
+
 ![Code Result](./imgs/dev-profile-view.jpg "Picture of Generated Profile")
 
 Code Process:
