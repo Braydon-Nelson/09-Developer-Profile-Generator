@@ -48,9 +48,6 @@ function generateHTML(response, userColor) {
          padding: 0;
          margin: 0;
          }
-         html, body, .wrapper {
-         height: 100%;
-         }
          .wrapper {
          background-color: ${colors[userColor].wrapperBackground};
          padding-top: 100px;
@@ -90,7 +87,6 @@ function generateHTML(response, userColor) {
          .photo-header {
          position: relative;
          margin: 0 auto;
-         margin-bottom: -50px;
          display: flex;
          justify-content: center;
          flex-wrap: wrap;
@@ -177,13 +173,13 @@ function generateHTML(response, userColor) {
           <div class="row">
             <div class="col">
               <div class="photo-header">
-                <img class="photo-heager" src="${response.data.avatar_url}"></img>
+                <img class="photo-header" src="${response.data.avatar_url}"></img>
                   <h1 class="photo-header">Hi!</h1>
                     <br>
                     <h2 class="photo-header">My name is ${response.data.name}</h2>
                     <div class="row">
                     <nav class="links-nav">
-                    <a class="nav-link" id="location" href="#"><h6><i class="fas fa-location-arrow"></i>${response.data.location}</h6></a>
+                    <a class="nav-link" id="location" target="_blank" href="https://www.google.com/maps/place/${response.data.location}"><h6><i class="fas fa-location-arrow"></i>${response.data.location}</h6></a>
                     <a class="nav-link" id="GitHub" href="${response.data.html_url}"><h6><i class="fab fa-github"></i>GitHub</h6></a>
                   <a class="nav-link" id="Portfolio" href="${response.data.blog}"><h6><i class="fas fa-rss-square"></i>Blog</h6></a>
                 </nav>
@@ -213,7 +209,6 @@ function generateHTML(response, userColor) {
             </div>
           </div>
         </div>
-      <div class="wrapper"></div>
     </div>
   </body>
   </html>`

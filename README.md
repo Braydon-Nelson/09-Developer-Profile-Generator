@@ -6,24 +6,25 @@ The purpose of this application is to allow the user to make a quick GitHub.
 
 ### Gallery
 
-Start Page:
-![Code Processing](./ "Picture of code processing")
+Generated Profile:
+![Code Processing](./imgs/code-process.gif "Picture of code processing")
 
-Quiz Page:
-![Code Result](./ "Picture of Generated Profile")
+Code Process:
+![Code Result](./imgs/dev-profile-view.jpg "Picture of Generated Profile")
 
 ### Problem
 
-Currently ... not pulling location via google maps
+Currently ... non
 
 ### Solution
 
-My solution will to implement it later on to make sure I understand it's concept
+N/A
 
 ## Tech and Features Used
 
 * HTML/CSS
 * Node.JS
+* GitHub API
 * NPM Libraries (axios, inquirer, html-pdf)
 
 ## How to use
