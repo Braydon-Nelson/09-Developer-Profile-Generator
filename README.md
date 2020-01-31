@@ -7,10 +7,10 @@ The purpose of this application is to allow the user to make a quick GitHub.
 ### Gallery
 
 Generated Profile:
-![Code Processing](./imgs/code-process.gif "Picture of code processing")
+![Code Result](./imgs/dev-profile-view.jpg "Picture of Generated Profile")
 
 Code Process:
-![Code Result](./imgs/dev-profile-view.jpg "Picture of Generated Profile")
+![Code Processing](./imgs/code-process.gif "Picture of code processing")
 
 ### Problem
 
