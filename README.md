@@ -33,7 +33,3 @@ N/A
 
 When you input `node index.js` you will be prompted to input your GitHub Username and then you can choose from a list of colors. Once you choose a color the program will go ahead and process the request to make your Profile Summary.
 
-
-### Link to example readme:
-
-https://github.com/IzzleNizzle/ReadoutAssistant
